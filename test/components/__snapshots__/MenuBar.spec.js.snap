@@ -1,0 +1,617 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MenuBar has user - signing out 1`] = `
+<nav
+  aria-label="main navigation"
+  class="navbar"
+  role="navigation"
+>
+  <div
+    class="navbar-brand"
+  >
+    <span
+      class="navbar-item"
+    >
+      <h2
+        class="title"
+      >
+        Phrases
+      </h2>
+    </span>
+     
+    <a
+      aria-expanded="false"
+      aria-label="menu"
+      class="navbar-burger burger"
+      data-target="navbarBasicExample"
+      role="button"
+    >
+      <span
+        aria-hidden="true"
+      />
+       
+      <span
+        aria-hidden="true"
+      />
+       
+      <span
+        aria-hidden="true"
+      />
+    </a>
+  </div>
+   
+  <div
+    class="navbar-menu"
+    id="navbarBasicExample"
+  >
+    <div
+      class="navbar-start"
+    >
+      <nuxt-link-stub
+        class="navbar-item"
+        to="/"
+      >
+        
+        Home
+      
+      </nuxt-link-stub>
+       
+      <nuxt-link-stub
+        class="navbar-item"
+        to="/play"
+      >
+        
+        Play
+      
+      </nuxt-link-stub>
+       
+      <nuxt-link-stub
+        class="navbar-item"
+        to="/create"
+      >
+        
+        Create
+      
+      </nuxt-link-stub>
+    </div>
+     
+    <div
+      class="navbar-end"
+    >
+      <div
+        class="navbar-item"
+      >
+        <div
+          class="buttons"
+        >
+          <button
+            class="button is-primary"
+            style="display: none;"
+          >
+            <strong>
+              Sign up
+            </strong>
+          </button>
+           
+          <button
+            class="button is-light"
+            style="display: none;"
+          >
+            
+            Sign in
+          
+          </button>
+           
+          <button
+            class="button is-primary is-loading"
+            style=""
+          >
+            <strong>
+              Sign Out
+            </strong>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <authmodal-stub
+    canceltext="Cancel"
+    errormessage=""
+    submittext=""
+    title=""
+  />
+</nav>
+`;
+
+exports[`MenuBar has user 1`] = `
+<nav
+  aria-label="main navigation"
+  class="navbar"
+  role="navigation"
+>
+  <div
+    class="navbar-brand"
+  >
+    <span
+      class="navbar-item"
+    >
+      <h2
+        class="title"
+      >
+        Phrases
+      </h2>
+    </span>
+     
+    <a
+      aria-expanded="false"
+      aria-label="menu"
+      class="navbar-burger burger"
+      data-target="navbarBasicExample"
+      role="button"
+    >
+      <span
+        aria-hidden="true"
+      />
+       
+      <span
+        aria-hidden="true"
+      />
+       
+      <span
+        aria-hidden="true"
+      />
+    </a>
+  </div>
+   
+  <div
+    class="navbar-menu"
+    id="navbarBasicExample"
+  >
+    <div
+      class="navbar-start"
+    >
+      <nuxt-link-stub
+        class="navbar-item"
+        to="/"
+      >
+        
+        Home
+      
+      </nuxt-link-stub>
+       
+      <nuxt-link-stub
+        class="navbar-item"
+        to="/play"
+      >
+        
+        Play
+      
+      </nuxt-link-stub>
+       
+      <nuxt-link-stub
+        class="navbar-item"
+        to="/create"
+      >
+        
+        Create
+      
+      </nuxt-link-stub>
+    </div>
+     
+    <div
+      class="navbar-end"
+    >
+      <div
+        class="navbar-item"
+      >
+        <div
+          class="buttons"
+        >
+          <button
+            class="button is-primary"
+            style="display: none;"
+          >
+            <strong>
+              Sign up
+            </strong>
+          </button>
+           
+          <button
+            class="button is-light"
+            style="display: none;"
+          >
+            
+            Sign in
+          
+          </button>
+           
+          <button
+            class="button is-primary"
+            style=""
+          >
+            <strong>
+              Sign Out
+            </strong>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <authmodal-stub
+    canceltext="Cancel"
+    errormessage=""
+    submittext=""
+    title=""
+  />
+</nav>
+`;
+
+exports[`MenuBar no user - signing in 1`] = `
+<nav
+  aria-label="main navigation"
+  class="navbar"
+  role="navigation"
+>
+  <div
+    class="navbar-brand"
+  >
+    <span
+      class="navbar-item"
+    >
+      <h2
+        class="title"
+      >
+        Phrases
+      </h2>
+    </span>
+     
+    <a
+      aria-expanded="false"
+      aria-label="menu"
+      class="navbar-burger burger"
+      data-target="navbarBasicExample"
+      role="button"
+    >
+      <span
+        aria-hidden="true"
+      />
+       
+      <span
+        aria-hidden="true"
+      />
+       
+      <span
+        aria-hidden="true"
+      />
+    </a>
+  </div>
+   
+  <div
+    class="navbar-menu"
+    id="navbarBasicExample"
+  >
+    <div
+      class="navbar-start"
+    >
+      <nuxt-link-stub
+        class="navbar-item"
+        to="/"
+      >
+        
+        Home
+      
+      </nuxt-link-stub>
+       
+      <nuxt-link-stub
+        class="navbar-item"
+        to="/play"
+      >
+        
+        Play
+      
+      </nuxt-link-stub>
+       
+      <nuxt-link-stub
+        class="navbar-item"
+        to="/create"
+      >
+        
+        Create
+      
+      </nuxt-link-stub>
+    </div>
+     
+    <div
+      class="navbar-end"
+    >
+      <div
+        class="navbar-item"
+      >
+        <div
+          class="buttons"
+        >
+          <button
+            class="button is-primary"
+          >
+            <strong>
+              Sign up
+            </strong>
+          </button>
+           
+          <button
+            class="button is-light"
+          >
+            
+            Sign in
+          
+          </button>
+           
+          <button
+            class="button is-primary"
+            style="display: none;"
+          >
+            <strong>
+              Sign Out
+            </strong>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <authmodal-stub
+    active="true"
+    canceltext="Cancel"
+    errormessage=""
+    submittext="Sign In"
+    title="Sign In"
+  />
+</nav>
+`;
+
+exports[`MenuBar no user - signing up 1`] = `
+<nav
+  aria-label="main navigation"
+  class="navbar"
+  role="navigation"
+>
+  <div
+    class="navbar-brand"
+  >
+    <span
+      class="navbar-item"
+    >
+      <h2
+        class="title"
+      >
+        Phrases
+      </h2>
+    </span>
+     
+    <a
+      aria-expanded="false"
+      aria-label="menu"
+      class="navbar-burger burger"
+      data-target="navbarBasicExample"
+      role="button"
+    >
+      <span
+        aria-hidden="true"
+      />
+       
+      <span
+        aria-hidden="true"
+      />
+       
+      <span
+        aria-hidden="true"
+      />
+    </a>
+  </div>
+   
+  <div
+    class="navbar-menu"
+    id="navbarBasicExample"
+  >
+    <div
+      class="navbar-start"
+    >
+      <nuxt-link-stub
+        class="navbar-item"
+        to="/"
+      >
+        
+        Home
+      
+      </nuxt-link-stub>
+       
+      <nuxt-link-stub
+        class="navbar-item"
+        to="/play"
+      >
+        
+        Play
+      
+      </nuxt-link-stub>
+       
+      <nuxt-link-stub
+        class="navbar-item"
+        to="/create"
+      >
+        
+        Create
+      
+      </nuxt-link-stub>
+    </div>
+     
+    <div
+      class="navbar-end"
+    >
+      <div
+        class="navbar-item"
+      >
+        <div
+          class="buttons"
+        >
+          <button
+            class="button is-primary"
+          >
+            <strong>
+              Sign up
+            </strong>
+          </button>
+           
+          <button
+            class="button is-light"
+          >
+            
+            Sign in
+          
+          </button>
+           
+          <button
+            class="button is-primary"
+            style="display: none;"
+          >
+            <strong>
+              Sign Out
+            </strong>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <authmodal-stub
+    active="true"
+    canceltext="Cancel"
+    errormessage=""
+    submittext="Sign Up"
+    title="Sign Up"
+  />
+</nav>
+`;
+
+exports[`MenuBar renders regular 1`] = `
+<nav
+  aria-label="main navigation"
+  class="navbar"
+  role="navigation"
+>
+  <div
+    class="navbar-brand"
+  >
+    <span
+      class="navbar-item"
+    >
+      <h2
+        class="title"
+      >
+        Phrases
+      </h2>
+    </span>
+     
+    <a
+      aria-expanded="false"
+      aria-label="menu"
+      class="navbar-burger burger"
+      data-target="navbarBasicExample"
+      role="button"
+    >
+      <span
+        aria-hidden="true"
+      />
+       
+      <span
+        aria-hidden="true"
+      />
+       
+      <span
+        aria-hidden="true"
+      />
+    </a>
+  </div>
+   
+  <div
+    class="navbar-menu"
+    id="navbarBasicExample"
+  >
+    <div
+      class="navbar-start"
+    >
+      <nuxt-link-stub
+        class="navbar-item"
+        to="/"
+      >
+        
+        Home
+      
+      </nuxt-link-stub>
+       
+      <nuxt-link-stub
+        class="navbar-item"
+        to="/play"
+      >
+        
+        Play
+      
+      </nuxt-link-stub>
+       
+      <nuxt-link-stub
+        class="navbar-item"
+        to="/create"
+      >
+        
+        Create
+      
+      </nuxt-link-stub>
+    </div>
+     
+    <div
+      class="navbar-end"
+    >
+      <div
+        class="navbar-item"
+      >
+        <div
+          class="buttons"
+        >
+          <button
+            class="button is-primary"
+          >
+            <strong>
+              Sign up
+            </strong>
+          </button>
+           
+          <button
+            class="button is-light"
+          >
+            
+            Sign in
+          
+          </button>
+           
+          <button
+            class="button is-primary"
+            style="display: none;"
+          >
+            <strong>
+              Sign Out
+            </strong>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <authmodal-stub
+    canceltext="Cancel"
+    errormessage=""
+    submittext=""
+    title=""
+  />
+</nav>
+`;

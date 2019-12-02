@@ -1,0 +1,468 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignUpModal custom cancel text 1`] = `
+<div
+  class="modal"
+>
+  <div
+    class="modal-background"
+  />
+   
+  <div
+    class="modal-card"
+  >
+    <header
+      class="modal-card-head"
+    >
+      <p
+        class="modal-card-title"
+      >
+        Auth Modal
+      </p>
+       
+      <button
+        aria-label="close"
+        class="delete"
+      />
+    </header>
+     
+    <section
+      class="modal-card-body"
+    >
+      <div
+        class="field"
+      >
+        <label
+          class="label"
+        >
+          Username
+        </label>
+         
+        <div
+          class="control"
+        >
+          <input
+            class="input"
+            placeholder="Username"
+            type="text"
+          />
+        </div>
+      </div>
+       
+      <div
+        class="field"
+      >
+        <label
+          class="label"
+        >
+          Password
+        </label>
+         
+        <div
+          class="control"
+        >
+          <input
+            class="input"
+            placeholder="Password"
+            type="password"
+          />
+        </div>
+      </div>
+       
+      <!---->
+    </section>
+     
+    <footer
+      class="modal-card-foot"
+    >
+      <button
+        class="button is-success"
+      >
+        Submit
+      </button>
+       
+      <button
+        class="button"
+      >
+        Don't Submit
+      </button>
+    </footer>
+  </div>
+</div>
+`;
+
+exports[`SignUpModal error message 1`] = `
+<div
+  class="modal"
+>
+  <div
+    class="modal-background"
+  />
+   
+  <div
+    class="modal-card"
+  >
+    <header
+      class="modal-card-head"
+    >
+      <p
+        class="modal-card-title"
+      >
+        Auth Modal
+      </p>
+       
+      <button
+        aria-label="close"
+        class="delete"
+      />
+    </header>
+     
+    <section
+      class="modal-card-body"
+    >
+      <div
+        class="field"
+      >
+        <label
+          class="label"
+        >
+          Username
+        </label>
+         
+        <div
+          class="control"
+        >
+          <input
+            class="input"
+            placeholder="Username"
+            type="text"
+          />
+        </div>
+      </div>
+       
+      <div
+        class="field"
+      >
+        <label
+          class="label"
+        >
+          Password
+        </label>
+         
+        <div
+          class="control"
+        >
+          <input
+            class="input"
+            placeholder="Password"
+            type="password"
+          />
+        </div>
+      </div>
+       
+      <article
+        class="message is-danger"
+      >
+        <div
+          class="message-body"
+        >
+          
+          This is an error
+        
+        </div>
+      </article>
+    </section>
+     
+    <footer
+      class="modal-card-foot"
+    >
+      <button
+        class="button is-success"
+      >
+        Submit
+      </button>
+       
+      <button
+        class="button"
+      >
+        Don't Submit
+      </button>
+    </footer>
+  </div>
+</div>
+`;
+
+exports[`SignUpModal loading 1`] = `
+<div
+  class="modal"
+>
+  <div
+    class="modal-background"
+  />
+   
+  <div
+    class="modal-card"
+  >
+    <header
+      class="modal-card-head"
+    >
+      <p
+        class="modal-card-title"
+      >
+        Auth Modal
+      </p>
+       
+      <button
+        aria-label="close"
+        class="delete"
+        disabled="disabled"
+      />
+    </header>
+     
+    <section
+      class="modal-card-body"
+    >
+      <div
+        class="field"
+      >
+        <label
+          class="label"
+        >
+          Username
+        </label>
+         
+        <div
+          class="control"
+        >
+          <input
+            class="input"
+            placeholder="Username"
+            type="text"
+          />
+        </div>
+      </div>
+       
+      <div
+        class="field"
+      >
+        <label
+          class="label"
+        >
+          Password
+        </label>
+         
+        <div
+          class="control"
+        >
+          <input
+            class="input"
+            placeholder="Password"
+            type="password"
+          />
+        </div>
+      </div>
+       
+      <!---->
+    </section>
+     
+    <footer
+      class="modal-card-foot"
+    >
+      <button
+        class="button is-success is-loading"
+      >
+        Submit
+      </button>
+       
+      <button
+        class="button"
+        disabled="disabled"
+      >
+        Don't Submit
+      </button>
+    </footer>
+  </div>
+</div>
+`;
+
+exports[`SignUpModal renders active 1`] = `
+<div
+  class="modal is-active"
+>
+  <div
+    class="modal-background"
+  />
+   
+  <div
+    class="modal-card"
+  >
+    <header
+      class="modal-card-head"
+    >
+      <p
+        class="modal-card-title"
+      >
+        Auth Modal
+      </p>
+       
+      <button
+        aria-label="close"
+        class="delete"
+      />
+    </header>
+     
+    <section
+      class="modal-card-body"
+    >
+      <div
+        class="field"
+      >
+        <label
+          class="label"
+        >
+          Username
+        </label>
+         
+        <div
+          class="control"
+        >
+          <input
+            class="input"
+            placeholder="Username"
+            type="text"
+          />
+        </div>
+      </div>
+       
+      <div
+        class="field"
+      >
+        <label
+          class="label"
+        >
+          Password
+        </label>
+         
+        <div
+          class="control"
+        >
+          <input
+            class="input"
+            placeholder="Password"
+            type="password"
+          />
+        </div>
+      </div>
+       
+      <!---->
+    </section>
+     
+    <footer
+      class="modal-card-foot"
+    >
+      <button
+        class="button is-success"
+      >
+        Submit
+      </button>
+       
+      <button
+        class="button"
+      >
+        Cancel
+      </button>
+    </footer>
+  </div>
+</div>
+`;
+
+exports[`SignUpModal renders regular 1`] = `
+<div
+  class="modal"
+>
+  <div
+    class="modal-background"
+  />
+   
+  <div
+    class="modal-card"
+  >
+    <header
+      class="modal-card-head"
+    >
+      <p
+        class="modal-card-title"
+      >
+        Auth Modal
+      </p>
+       
+      <button
+        aria-label="close"
+        class="delete"
+      />
+    </header>
+     
+    <section
+      class="modal-card-body"
+    >
+      <div
+        class="field"
+      >
+        <label
+          class="label"
+        >
+          Username
+        </label>
+         
+        <div
+          class="control"
+        >
+          <input
+            class="input"
+            placeholder="Username"
+            type="text"
+          />
+        </div>
+      </div>
+       
+      <div
+        class="field"
+      >
+        <label
+          class="label"
+        >
+          Password
+        </label>
+         
+        <div
+          class="control"
+        >
+          <input
+            class="input"
+            placeholder="Password"
+            type="password"
+          />
+        </div>
+      </div>
+       
+      <!---->
+    </section>
+     
+    <footer
+      class="modal-card-foot"
+    >
+      <button
+        class="button is-success"
+      >
+        Submit
+      </button>
+       
+      <button
+        class="button"
+      >
+        Cancel
+      </button>
+    </footer>
+  </div>
+</div>
+`;

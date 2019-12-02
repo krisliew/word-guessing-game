@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GameWordDisplay with word 1`] = `
+<section
+  class="word-display"
+>
+  <span
+    class="character"
+  >
+     
+  </span>
+  <span
+    class="character"
+  >
+    o
+  </span>
+  <span
+    class="character"
+  >
+     
+  </span>
+  <span
+    class="character"
+  >
+     
+  </span>
+  <span
+    class="character"
+  >
+    r
+  </span>
+  <span
+    class=""
+  >
+     
+  </span>
+  <span
+    class="character"
+  >
+    B
+  </span>
+  <span
+    class="character"
+  >
+     
+  </span>
+  <span
+    class="character"
+  >
+     
+  </span>
+  <span
+    class="character"
+  >
+    r
+  </span>
+</section>
+`;
+
+exports[`GameWordDisplay without word 1`] = `
+<section
+  class="word-display"
+/>
+`;
