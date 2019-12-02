@@ -193,18 +193,23 @@ export default {
     },
     submitWordGuess() {
       if(this.guessText.length>0){
-        var self = this;
+        if(this.guessText.match(/[a-zA-Z]/)){
+          var self = this;
 
-      this.makeGuess({ guess: this.guessText }).then(function(){ //Sync the method 
-          console.log(self.currentGame);
-          if(self.currentGame.won == false && self.currentGame.wordGuesses.length > 0){
-            self.speak("Wrong guess, try again!");
-            self.errorGuess = "Wrong guess, try again!";
-          }else{            
-            self.errorGuess = "";
-          }
-        });
-        this.guessText = "";
+          this.makeGuess({ guess: this.guessText }).then(function(){ //Sync the method 
+            console.log(self.currentGame);
+            if(self.currentGame.won == false && self.currentGame.wordGuesses.length > 0){
+              self.speak("Wrong guess, try again!");
+              self.errorGuess = "Wrong guess, try again!";
+            }else{            
+              self.errorGuess = "";
+            }
+          });
+          this.guessText = "";
+        }else{
+          this.speak("Please input character from A to Z only!")
+          this.errorGuess = "Error: Please input character from A-Z only!"
+        }
       }else{
         this.speak("Please input the guess word before guessing!")
         this.errorGuess = "Error: Cannot guess empty guess!"
