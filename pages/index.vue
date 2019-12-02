@@ -2,7 +2,6 @@
   <section class="container">
     <div>
       <h1 class="title">
-        Home page is not used
       </h1>
     </div>
   </section>
@@ -10,8 +9,11 @@
 
 <script>
 export default {
-  components: {}
+  mounted(){
+    this.$router.push("/play") ;
+  }
 };
+
 </script>
 
 <style scoped>
