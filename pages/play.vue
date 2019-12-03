@@ -46,7 +46,7 @@
             </button>
           </div>
         </div>        
-        <p class="text-error text-danger">{{ errorGuess }}</p>
+        <p  v-show="hider" class="text-error text-danger">{{ errorGuess }}</p>
 
       </section>
       <button
@@ -217,8 +217,8 @@ export default {
     },
     speak(str){
       //https://developers.google.com/web/updates/2014/01/Web-apps-that-talk-Introduction-to-the-Speech-Synthesis-API
-      let msg = new SpeechSynthesisUtterance(str);
-      // window.speechSynthesis.cancel();
+      let msg = new SpeechSynthesisUtterance(str);      
+      window.speechSynthesis.cancel();
       window.speechSynthesis.speak(msg);
       return 0;
     }
