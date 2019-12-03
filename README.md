@@ -1,6 +1,7 @@
 # word-guessing-game
- HCI Assignment 
-$ On browser: localhost:3000/play 
+HCI Assignment 
+
+On browser: localhost:3000/play 
 
 ## Build Setup
 
